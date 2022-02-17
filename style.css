@@ -1,0 +1,113 @@
+html body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    animation-name: mainbody;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes mainbody{
+    0% {background-color: aqua;}
+    25% {background-color: blueviolet;}
+    50% {background-color: crimson;}
+    75% {background-color: cyan;}
+    100% {background-color: gold;}
+
+}
+p{
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-name: n1;
+    color: coral;
+}
+
+@keyframes n1{
+    from {color: coral;}
+    to {color: rgb(12, 41, 187);}
+
+    from {margin-left: 0px;}
+    to {margin-left: 300px;}
+
+
+}
+.container{
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    background-color: rgb(201, 72, 72);
+    box-shadow: beige;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    width: 325px;
+    
+}
+
+.display{
+    width: 100%;
+    height: 60px;
+    padding: 48px 0;
+    background: rgb(83, 59, 10) !important;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.buttons{
+    padding: 20% 20px 0 20px;
+}
+
+.row{
+    width: 50px;
+    float: left;
+
+}
+.btn:hover{
+    background-color: grey;
+    color: honeydew;
+}
+
+input[type=button]{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: rgb(20, 5, 9);
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: lightblue;
+    cursor: pointer;
+
+}
+
+input[type=text]{
+    width: 275px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border:  none;
+    background-color: none;
+    color: blueviolet;
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0 25px;
+
+
+
+
+}
+
+.blue{
+    background-color: tomato;
+    color: white;
+}
